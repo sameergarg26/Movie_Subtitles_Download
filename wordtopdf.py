@@ -23,7 +23,7 @@ if extension not in [".avi", ".mp4", ".mkv", ".mpg", ".mpeg", ".mov", ".rm", ".v
     exit(-1)
 
 if not os.path.exists(root + ".srt"):
-    headers = {'User-Agent': 'SubDB/1.0 (subtitle-downloader/1.0; http://github.com/manojmj92/subtitle-downloader)'}
+    headers = {'User-Agent': 'SubDB/1.0 (Movies_Subtitles_Download/1.0; https://github.com/sameergarg26/Movie_Subtitles_Download)'}
     # url = "http://sandbox.thesubdb.com/?action=download&hash=" + get_hash(file_path) + "&language=en"
     url = "http://api.thesubdb.com/?action=download&hash=" + get_hash(file_path) + "&language=en"
     # print(url)
